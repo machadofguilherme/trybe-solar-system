@@ -1,3 +1,33 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header, .solar-system {
+  padding-bottom: 30px;
   text-align: center;
+}
+
+.solar-system h2 {
+  font-weight: 500;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.planet-card {
+  display: inline-block;
+  height: 20px;
+  margin-top: 10px;
+  width: 90px;
+}
+
+img {
+  width: 100px;
+}
+
+.mission-card {
+  display: inline-block;
+  height: 100px;
+  width: 400px;
 }

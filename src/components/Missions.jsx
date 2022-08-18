@@ -6,7 +6,7 @@ import missions from '../data/missions';
 class Missions extends Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div data-testid="missions" className="solar-system">
         <Title headline="Missões" />
         {
           missions
