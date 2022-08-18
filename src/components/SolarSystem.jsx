@@ -16,7 +16,6 @@ class SolarSystem extends Component {
               planetImage={ planet.image }
             />))
         }
-        ;
       </div>
     );
   }
